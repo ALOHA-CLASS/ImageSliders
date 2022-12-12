@@ -1,0 +1,117 @@
+
+.slide-container {
+    width: 960px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+
+.slide-container .slide {
+    width: auto;
+    height: 480px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+
+.slide img { 
+    width: 100%;
+    height: 100%;
+}
+
+
+.slide-nav {
+    width: 960px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.slide-nav .slide {
+    width: auto;
+    height: 180px;
+    /* padding: 20px; */
+    box-sizing: border-box;
+}
+
+.slide-nav .slide:not(.slick-current) {
+    filter: brightness(20%);
+}
+
+/* slick - 네비게이션 화살표 */
+.prev-arrow {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    z-index: 100;
+    background: url(../img/prev.png) no-repeat center center / 40px 40px;
+    outline: none;
+    border: none;
+    filter: brightness(40%);
+    cursor: pointer;
+}
+
+
+.next-arrow {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50%);
+    z-index: 100;
+    background: url(../img/next.png) no-repeat center center / 40px 40px;
+    outline: none;
+    border: none;
+    filter: brightness(40%);
+    cursor: pointer;
+}
+
+
+.prev-arrow:hover,
+.next-arrow:hover {
+    filter: brightness(100%);
+}
+
+
+
+/* 네비게이션 닷츠 커스텀 */
+.slick-dots {
+    position: absolute;
+    bottom: -20px;
+}
+
+
+.slick-dots li { margin-right: 20px; }
+.slick-dots li button {}
+/* 닷츠 */
+.slick-dots li button::before {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: sandybrown;
+}
+/* 현재 닷츠 */
+.slick-dots li.slick-active button::before { background-color: orange; }
+
+
+
+.nav-btn {
+    display: block;
+    padding: 5px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    background-color: rgb(240, 196, 158);
+    border-radius: 50%;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+.slick-dots li.slick-active .nav-btn {
+    background-color: orange;
+}

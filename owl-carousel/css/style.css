@@ -1,0 +1,15 @@
+
+.slide-container {
+    max-width: 1200px;
+    height: 480px;
+    margin: 50px auto;
+}
+
+
+.item {
+    width: auto;
+    height: 480px;
+}
+
+
+.item img { width: 100%; height: 100%; }

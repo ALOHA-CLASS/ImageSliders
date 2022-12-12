@@ -1,0 +1,53 @@
+
+.wrap {
+    width: 960px;
+    height: 480px;
+    margin: 50px auto;
+}
+
+/* 슬라이드 */
+.slide {
+    width: auto;
+    height: 480px;
+}
+
+/* 슬라이드 이미지 */
+.slide img { width: 100%; height: 100%; }
+
+
+/* 기본 커스텀 */
+.bx-wrapper {
+    box-shadow: 0 0 0 transparent;
+    border: 0 solid #fff;
+    background-color: #fff;
+}
+
+/************** 페이지네이션 커스텀 **************/
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 20px;           /* 페이지 네이션 슬라이드 안으로 */
+}
+/* 페이지네이션 커스텀 - 닷츠 */
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background-color: #fff;
+}
+/* 페이지네이션 커스텀 - 활성화된 닷츠 */
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background-color: hotpink;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    border-radius: 0;
+    width: 20px;
+    height: 5px;
+}
+
+/************** 네비게이션 화살표 커스텀 **************/
+.bx-wrapper .bx-prev { background: url(../img/prev.png) no-repeat left center; background-size: 32px 32px;}
+.bx-wrapper .bx-next { background: url(../img/next.png) no-repeat left center; background-size: 32px 32px;}
+
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus { background-position: 0 0; }
+.bx-wrapper .bx-prev:hover { filter: brightness(60%); }
+
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus { background-position: 0 0; }
+.bx-wrapper .bx-next:hover { filter: brightness(60%); }
