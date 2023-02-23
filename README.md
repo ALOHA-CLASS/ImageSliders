@@ -1,17 +1,17 @@
 # ImageSliders
 이미지 슬라이드 플러그인 모음
 
-[bx-slider](https://human-aloha.github.io/ImageSliders/bx-slider/index.html "bx-slider")
+[bx-slider](https://aloha-class.github.io/ImageSliders//bx-slider/index.html "bx-slider")
 <br>
-[flex-slider](https://human-aloha.github.io/ImageSliders/flex-slider/index.html "flex-slider")
+[flex-slider](https://aloha-class.github.io/ImageSliders/flex-slider/index.html "flex-slider")
 <br>
-[owl-carousel](https://human-aloha.github.io/ImageSliders/owl-carousel/index.html "owl-carousel")
+[owl-carousel](https://aloha-class.github.io/ImageSliders/owl-carousel/index.html "owl-carousel")
 <br>
-[slick](https://human-aloha.github.io/ImageSliders/slick/index.html "slick")
+[slick](https://aloha-class.github.io/ImageSliders/slick/index.html "slick")
 <br>
-[swiper](https://human-aloha.github.io/ImageSliders/swiper/index.html "swiper")
+[swiper](https://aloha-class.github.io/ImageSliders/swiper/index.html "swiper")
 <br>
 
 
-<img src="https://cafeptthumb-phinf.pstatic.net/MjAyMjEyMTNfMTc1/MDAxNjcwODY0NjQ4NTI5.aqRp2mSSpR4c5N8Fpc0RrGK-cbQ8HC6CZWTI9QeP0cUg.y9dSQTqF7YbicKbJuZRBvkhRnLFnLDZACfLStRdHAn8g.PNG/good.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 
+<img src="https://postfiles.pstatic.net/MjAyMjA2MjJfMjA2/MDAxNjU1ODk2MDAxMTA3.p476YjsL3EnUDs9Bczu6Dtp2qsLxRmNiiYXTxD3ZjYQg.fTeiKmmQnZiEGEl1c1tbKsZPv09aRbp8uct1gFaUD0cg.PNG.h850415/ALOHA-MASK.png?type=w966" width="300">
